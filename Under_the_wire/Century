@@ -1,0 +1,14 @@
+This includes solutions and technologies/techniques used to solve Under The Wire:
+
+Challenge 1:
+Get the buid version of powershell using $psversiontable built-in variable.
+
+Challenge 2:
+cmdlet's are functions/commands or scripts to perform some task. Usually.NET classes.  get-command gives list of cmdlets in powershell and get-help <cmdlet name> gives description
+Invoke-WebRequest is the wget like cmdlet
+
+Challenge 3:
+While wc can be used in linux, for windows, to get the number of files in a directory:
+Write-Host ( dir C:\users\century3\desktop | measure).Count; (123)
+
+Challenge 4:
