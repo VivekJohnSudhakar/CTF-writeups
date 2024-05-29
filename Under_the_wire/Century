@@ -29,5 +29,5 @@ Get-ChildItem -Path ./ -Filter readme.txt -Recurse -ErrorAction SilentlyContinue
 Challenge 8: The format to get the count is the same (cmd | measure).Count
 (cat unique.txt|measure).Count;
 
-Challenge 9:
+Challenge 9:  (Get-Content .\Word_File.txt) -split '\s+' | Select-Object -Index 161
 nonapplicabness
