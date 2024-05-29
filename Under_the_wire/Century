@@ -12,3 +12,22 @@ While wc can be used in linux, for windows, to get the number of files in a dire
 Write-Host ( dir C:\users\century3\desktop | measure).Count; (123)
 
 Challenge 4:
+To read files which have spaces in the name, we can enclose the name in quotes (')
+
+Challenge 5:
+The domain name is the name of the system in the network.
+ (gwmi Win32_NTDomain).DomainName
+
+Challenge 6:
+dir gives the contents. This is piped to measure and the count of files are given.
+(dir | measure).Count;
+
+Challenge 7:
+To search for a fie, we can use the Get-FileItem cmdlet
+Get-ChildItem -Path ./ -Filter readme.txt -Recurse -ErrorAction SilentlyContinue -Force
+
+Challenge 8: The format to get the count is the same (cmd | measure).Count
+(cat unique.txt|measure).Count;
+
+Challenge 9:
+nonapplicabness
